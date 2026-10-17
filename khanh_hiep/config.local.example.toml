@@ -1,0 +1,19 @@
+# Development defaults only. No credentials. No AI calls during setup.
+log_level = "INFO"
+listen_host = "127.0.0.1"
+listen_port = 8080
+
+[app]
+api_key = ""
+hide_config = false
+tls_verify = true
+script_generation_backend = "local"
+video_source = "local"
+llm_provider = "ollama"
+ollama_base_url = "http://127.0.0.1:11434/v1"
+ollama_model_name = ""
+subtitle_provider = "edge"
+pexels_api_keys = []
+pixabay_api_keys = []
+
+[ui]

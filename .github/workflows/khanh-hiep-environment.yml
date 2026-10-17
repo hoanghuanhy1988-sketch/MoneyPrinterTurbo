@@ -1,0 +1,25 @@
+name: Khanh Hiep environment verification
+
+on:
+  push:
+    branches: [dev/khanh-hiep-ai-video-studio]
+    paths:
+      - khanh_hiep/**
+      - .github/workflows/khanh-hiep-environment.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Install locked environment and run local-only smoke checks
+        shell: pwsh
+        run: ./khanh_hiep/scripts/setup-windows.ps1
+      - name: Build upstream Python distribution without publishing
+        run: uv build --out-dir storage/khanh-hiep-build
