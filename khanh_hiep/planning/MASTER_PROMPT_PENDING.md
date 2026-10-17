@@ -1,12 +1,12 @@
-# Ch? MASTER PROMPT
+# Chờ MASTER PROMPT
 
-Ph?m vi �?t n�y: fork, nh�nh ri�ng, setup v� ki?m tra m�i tr�?ng. Ch�a l?p tr?nh to�n b? s?n ph?m.
+Phạm vi đợt này: fork, nhánh riêng, setup và kiểm tra môi trường. Chưa lập trình toàn bộ sản phẩm.
 
-Khi nh?n MASTER PROMPT:
-1. �?c c?u tr�c v� ch?c n�ng upstream hi?n c� tr�?c khi thi?t k? ph?n m? r?ng.
-2. Gi? nguy�n m? g?c; �u ti�n module b? sung. M?i thay �?i t�ch h?p ph?i ��?c t�ch th�nh commit c� th? ki?m tra.
-3. �u ti�n ti?ng Vi?t, Windows, t�i nguy�n local v� model ch?y local. Kh�ng t? chuy?n sang API t�nh ph� ho?c d�ng quota d�ng th? nh� ph��ng �n mi?n ph� l�u d�i.
-4. Kh�ng tri?n khai, xu?t b?n, thay main ho?c b?t t? ��ng video.
-5. Ki?m tra theo t?ng giai �o?n. Kh�ng tuy�n b? t�nh n�ng, m�i tr�?ng ho?c ch?t l�?ng video �? �?t n?u ch�a c� b?ng ch?ng ch?y th?c t?.
+Khi nhận MASTER PROMPT:
+1. Đọc cấu trúc và chức năng upstream hiện có trước khi thiết kế phần mở rộng.
+2. Giữ nguyên mã gốc; ưu tiên module bổ sung. Mọi thay đổi tích hợp phải được tách thành commit có thể kiểm tra.
+3. Ưu tiên tiếng Việt, Windows, tài nguyên local và model chạy local. Không tự chuyển sang API tính phí hoặc dùng quota dùng thử như phương án miễn phí lâu dài.
+4. Không triển khai, xuất bản, thay main hoặc bật tự đăng video.
+5. Kiểm tra theo từng giai đoạn. Không tuyên bố tính năng, môi trường hoặc chất lượng video đã đạt nếu chưa có bằng chứng chạy thực tế.
 
-C�c v? tr� d? ki?n cho b�?c ph�t tri?n ti?p theo: adapter local, x? l? k?ch b?n, qu?n l? ?nh tham chi?u, pipeline d?ng video, UI ti?ng Vi?t. Ch�a t?o module gi? ho?c gi? l?p ch?c n�ng th�nh c�ng.
+Các vị trí dự kiến cho bước phát triển tiếp theo: adapter local, xử lý kịch bản, quản lý ảnh tham chiếu, pipeline dựng video, UI tiếng Việt. Chưa tạo module giả hoặc giả lập chức năng thành công.
